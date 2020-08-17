@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/soundclowned/precache-manifest.3ce54b13813b636fcd48db99be58e768.js"
+  "/soundclowned/precache-manifest.ddd92a92d2303477cc9aa9f43038cf5f.js"
 );
 
 self.addEventListener('message', (event) => {

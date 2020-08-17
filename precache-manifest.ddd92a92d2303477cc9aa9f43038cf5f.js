@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18692a0ccf2207060f24b850828674f2",
+    "revision": "abd73fd3908a1cf743e8576a7150685a",
     "url": "/soundclowned/index.html"
   },
   {
-    "revision": "5f296d9571a7d6175d8c",
+    "revision": "5c711074dca0397b1dc2",
     "url": "/soundclowned/static/css/main.f76daf8c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/soundclowned/static/js/2.6f82bf14.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f296d9571a7d6175d8c",
-    "url": "/soundclowned/static/js/main.6a38f90c.chunk.js"
+    "revision": "5c711074dca0397b1dc2",
+    "url": "/soundclowned/static/js/main.0cf25a0d.chunk.js"
   },
   {
     "revision": "96cd16e1b17af9aa085d",
