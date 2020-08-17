@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/soundclowned/static/css/main.f76daf8c.chunk.css",
-    "main.js": "/soundclowned/static/js/main.0cf25a0d.chunk.js",
-    "main.js.map": "/soundclowned/static/js/main.0cf25a0d.chunk.js.map",
+    "main.js": "/soundclowned/static/js/main.dc08ebcb.chunk.js",
+    "main.js.map": "/soundclowned/static/js/main.dc08ebcb.chunk.js.map",
     "runtime-main.js": "/soundclowned/static/js/runtime-main.bc5fb411.js",
     "runtime-main.js.map": "/soundclowned/static/js/runtime-main.bc5fb411.js.map",
     "static/js/2.6f82bf14.chunk.js": "/soundclowned/static/js/2.6f82bf14.chunk.js",
     "static/js/2.6f82bf14.chunk.js.map": "/soundclowned/static/js/2.6f82bf14.chunk.js.map",
     "index.html": "/soundclowned/index.html",
-    "precache-manifest.ddd92a92d2303477cc9aa9f43038cf5f.js": "/soundclowned/precache-manifest.ddd92a92d2303477cc9aa9f43038cf5f.js",
+    "precache-manifest.98ee4d608b72fc07163331faa044e396.js": "/soundclowned/precache-manifest.98ee4d608b72fc07163331faa044e396.js",
     "service-worker.js": "/soundclowned/service-worker.js",
     "static/css/main.f76daf8c.chunk.css.map": "/soundclowned/static/css/main.f76daf8c.chunk.css.map",
     "static/js/2.6f82bf14.chunk.js.LICENSE.txt": "/soundclowned/static/js/2.6f82bf14.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.bc5fb411.js",
     "static/js/2.6f82bf14.chunk.js",
     "static/css/main.f76daf8c.chunk.css",
-    "static/js/main.0cf25a0d.chunk.js"
+    "static/js/main.dc08ebcb.chunk.js"
   ]
 }
