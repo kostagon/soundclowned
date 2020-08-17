@@ -1,5 +1,5 @@
 const initState = {
-    previewStyle: localStorage.getItem('preview-style')
+    previewStyle: localStorage.getItem('preview-style') ? localStorage.getItem('preview-style') : 'list'
 }
 
 const utilReducer = (state = initState, action) => {
