@@ -1,0 +1,83 @@
+.search-cmp-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px auto;
+    overflow-x: hidden;
+
+    form {
+        width: 100%;
+        grid-row: 1/2;
+        grid-column: 1/-1;
+        display: flex;
+        position: relative;
+    }
+    input {
+        width: 100%;
+        border-radius: 999px;
+        padding-left: 20px;
+        margin-left: 4px;
+        height: 30px;
+    }
+    button {
+        height: 30px;
+        border: none;
+        background-color: none;
+        position: absolute;
+        right: 5px;
+        cursor: pointer;
+        &:focus {
+            background: none;
+        }
+        &:active {
+            top: 1px;
+        }
+    }
+
+    .search-results {
+        // this is for the place holder
+        grid-column: 1 / -1;
+    }
+
+    .search-results-list {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+    .search-results-tile {
+        display: grid;
+        grid-template-rows: repeat(3, 170px);
+        grid-template-columns: repeat(2, 50%);
+        gap: 5px;
+        margin-left: 7px;
+        @include for-narrow-layout {
+            gap: unset;
+            margin-left: 0;
+        }
+    }
+
+    .search-results-list,
+    .search-results-tile {
+        grid-column: 1/-1;
+        .results-options {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.5rem;
+            color: #ff945e;
+            transition: 0.2s;
+            margin-left: 7px;
+            & > :nth-child(1):hover {
+                color: #f50;
+            }
+            .listing-options > div {
+                display: inline;
+                margin: 0 5px;
+                & > *:hover {
+                    color: #f50;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+}

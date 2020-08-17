@@ -1,0 +1,14 @@
+header {
+    background-color: #f50;
+    .logo {
+        color: white;
+        line-height: 55px;
+        margin-left: 1rem;
+        text-transform: uppercase;
+        &::after {
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            content: " SoundCloud";
+        }
+    }
+}

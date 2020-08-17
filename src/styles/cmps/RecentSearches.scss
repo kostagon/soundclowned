@@ -1,0 +1,22 @@
+.recent-searches-container {
+    display: flex;
+    flex-direction: column;
+
+    .list-link {
+        cursor: pointer;
+        transition: 0.2s;
+        width: max-content;
+        border-bottom: 1px solid black;
+        padding-top: 1px;
+        &:hover {
+            color: #5b5b5b;
+        }
+    }
+    .svg-container {
+        transform: scaleX(-1);
+    }
+    @include for-narrow-layout {
+        flex-direction: row;
+        justify-self: center;
+    }
+}

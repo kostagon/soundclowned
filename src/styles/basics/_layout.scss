@@ -1,0 +1,62 @@
+.main-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px calc(100vh - 100px) 20px;
+    gap: 15px;
+    background-color: #f4eeee;
+    header {
+        grid-column: 1 / -1;
+        grid-row: 1/2;
+    }
+    .search-cmp-container {
+        grid-row: 2/3;
+    }
+    .recent-searches-container {
+        grid-row: 2/3;
+        grid-column: -2/-1;
+    }
+    .player-cmp-container {
+        grid-row: 2/3;
+        grid-column: 2 / 3;
+    }
+    .svg-container {
+        grid-row: 2/3;
+        grid-column: 2 / 3;
+    }
+    footer {
+        grid-row: -2 / -1;
+        grid-column: 1 / -1;
+    }
+}
+
+// --------------NARROW BREAKPONT--------------
+
+@include for-narrow-layout {
+    .main-layout {
+        grid-template-rows: 50px calc(78vh - 50px) calc(20vh - 65px) 20px;
+
+        .search-cmp-container {
+            grid-column: 1 / -1;
+            grid-row: 2 / 3;
+            overflow-y: scroll;
+        }
+
+        .recent-searches-container {
+            grid-row: -2/-3;
+            display: none;
+        }
+
+        .player-cmp-container {
+            grid-row: 3/4;
+            grid-column: 1 / -1;
+        }
+
+        .svg-container {
+            display: none;
+        }
+
+        footer {
+            display: none;
+        }
+    }
+}

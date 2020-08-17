@@ -1,0 +1,68 @@
+// Flex helpers
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-content: center;
+}
+
+// Grid helpers
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.justify-self-start {
+    justify-self: start;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.justify-self-end {
+    justify-self: end;
+}
+
+// List
+
+.clean-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    & > * {
+        margin: 5px 0;
+    }
+}
+
+// Cards
+
+.thumbnail {
+    width: 50px;
+}
+
+// Etc
+
+.text-align-center {
+    text-align: center;
+}
+
+.strong {
+    font-weight: 800;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

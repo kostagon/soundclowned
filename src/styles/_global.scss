@@ -1,0 +1,16 @@
+// SETUP
+@import "setup/typography";
+@import "setup/vars";
+@import "setup/mixins";
+
+// Basics
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/layout";
+
+// Components
+@import "cmps/HeaderCmp.scss";
+@import "cmps/SearchCmp.scss";
+@import "cmps/RecentSearches.scss";
+@import "cmps/TrackPreview.scss";
+@import "cmps/SvgCmp.scss";

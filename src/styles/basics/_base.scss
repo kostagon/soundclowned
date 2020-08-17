@@ -1,0 +1,64 @@
+// Site basic config
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: YanoneRegular;
+    font-size: 18px;
+    // overflow-y: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+// Scrollbar
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f50;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f40;
+}
+
+footer {
+    text-align: center;
+}
+
+// Elements
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    font-family: YanoneMedium;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    background: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+    background-color: rgb(247, 247, 247);
+    transition: 0.2s;
+}

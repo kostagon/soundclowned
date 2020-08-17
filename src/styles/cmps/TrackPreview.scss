@@ -1,0 +1,23 @@
+// Child of Search Cmp which is a flex
+.track-preview-list-container {
+    padding: 10px 0;
+    display: flex;
+    & > * {
+        margin-left: 7px;
+    }
+}
+.track-preview-tile-container {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+}
+
+.track-preview-list-container,
+.track-preview-tile-container {
+    cursor: pointer;
+    transition: 0.2s;
+    border-bottom: 2px solid #f28e2f7a;
+    &:hover {
+        background-color: #f8e8e07a;
+    }
+}
